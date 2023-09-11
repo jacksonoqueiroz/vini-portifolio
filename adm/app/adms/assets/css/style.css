@@ -1,0 +1,372 @@
+	body{
+	color: #326689;
+}
+.cabecalho{
+	margin-top: 10px;
+}
+.cabecalho h2{
+	color: #2975a8;
+}
+
+/*---- EDITAR IMAGENS--*/
+.img-perfil{
+	position: relative;
+	display: inline-block;	
+}
+.img-perfil:hover{	
+	filter: brightness(50%)
+}
+.img-perfil:hover .edit-img{
+	display: inline-block;
+}
+.edit-img{
+	padding-top: 7px;
+	padding-right: 20px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: none;
+}
+.editar{
+	padding-top: 57px;
+	padding-right: 0px;
+	font-size: 40px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.img-tools:hover{
+	filter: brightness(50%);
+}
+
+.prev-img{
+	width: 250px;
+	height: 141px;
+}
+
+.prev-img-lg{
+	width: 50%;
+}
+
+
+/*---- FIM EDITAR IMAGENS--*/
+
+.bt-view{
+	margin-top: -70px;
+	margin-left: 610px;
+}
+
+/* ----- EDITAR FAVICON */
+.icon-fav img{
+	width: 300%;
+}
+.img-fav{
+	position: relative;
+	display: inline-block;
+}
+.img-fav:hover .edit{
+	display: block;
+}
+.edit{
+	padding: 7px;
+	padding-right: 7px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: none;
+}
+.prev-img{
+	width: 200px;
+	height: 60px;
+}
+
+/* -----FIM EDITAR IMAGEM */
+
+.conteudo-cabecalho{
+	margin-top: -78px;
+	margin-left: 10px;
+	background-color: #bcc2c7;
+	padding: 35px 20px 15px 25px;
+}
+.bt-edit{
+	margin-top: -50px;
+	margin-left: 380px;
+}
+.img-dispositivos img{
+	width: 100%;
+	height: 80%;
+}
+.img-pc img{
+	margin-left: -90px;
+	width: 140%;
+	height: 80%;
+}
+.img-sobre img{
+	width: 150%;
+}
+.img-sobre:hover{
+	filter: brightness(50%)
+}
+.img-sobre:hover .edit-img-tm{
+	display: block;
+	filter: brightness(50%);
+}
+.edit-img-tm{
+	position: absolute;
+	margin-top: 150px;
+	margin-right: 150px;
+	color: white;
+	right: 0;
+	top: 0;
+	display: none;
+}
+.img-sobre:hove .edit-img-tm{
+
+}
+.icon-tools img{
+	width: 30%;
+}
+.icon-tools-2 img{
+	width: 30%;
+	margin-left: -110px;
+}
+.desc-icons{
+	margin-left: -105px;
+	margin-top: 15px;
+}
+.desc-icons-2{
+	margin-left: -230px;
+	margin-top: 15px;
+}
+
+.icon-sociais i{
+	font-size: 45px;
+}
+.gal-text-2 {
+	margin-left: -15px;
+}
+.gal-prof img{
+	width: 100%;
+}
+.gal-prof-2 img{
+	width: 100%;
+}
+.text-img{
+	text-align: center;
+}
+.guia{
+	margin-top: 10px;
+	width: 30%; 
+	color: #ffffff; 
+	background-color: #326689; 
+	height: 50px;
+	border-radius: 7px;
+}
+.guia h2{
+	color: #fff;	
+	text-align: left;
+	margin-left: 10px;
+}
+
+.conteudo{
+	margin-top: -5px;
+	background-color: #e1e5e9;
+	padding: 25px;
+}
+
+@media screen and (max-width: 480px){
+
+.conteudo-cabecalho{
+	margin-top: -65px;
+	margin-left: 10px;
+	padding: 35px 20px 15px 25px;
+}
+
+.img-cabecalho{
+	width: 100%;
+}
+.bt-view{
+	margin-top: -50px;
+	margin-left: 250px;
+}
+
+.edit-img{
+	padding-top: 20px;
+	padding-right: 7px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: none;
+}
+.bt-edit{
+	margin-top: -40px;
+	margin-left: 230px;
+}
+
+.img-dispositivos img{
+	margin-top: 20px;
+	width: 100%;
+}
+
+.img-pc img{
+	margin-top: 10px;
+	margin-left: 0px;
+	width: 100%;
+	height: 130%;
+}
+
+.img-sobre img{
+	width: 100%;
+	height: 130%;
+}
+
+.edit-img-tm{
+	position: absolute;
+	margin-top: 50px;
+	margin-right: 120px;
+	color: white;
+	right: 0;
+	top: 0;
+	display: none;
+}
+.texto-sm{
+	margin-top: 15px;
+}
+.icon-tools img{
+	margin-top: 10px;
+	width: 30%;
+	height: 100%;
+}
+.desc-icons{
+	margin-left: 0px;
+	margin-top: 15px;
+}
+.icon-tools-2 img{
+	width: 30%;
+	margin-left: 0px;
+}
+.desc-icons-2{
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.caminho-icons{
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+.text-img{
+	text-align: left;
+}
+
+.guia{
+	width: 70%;
+}
+
+.guia h2{
+	font-size: 25px;
+	text-align: left;
+}
+.gal-text-2 {
+	margin-left: -100px;
+}
+
+.conteudo h2{
+	text-align: center	;
+}
+
+	
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+.icon-tools img{
+	width: 30%;
+}
+.icon-tools img{
+	margin-top: 10px;
+	width: 30%;
+	height: 100%;
+}
+.bt-edit{
+	margin-left: 250px;
+}
+.desc-icons{
+	margin-left: 0px;
+	margin-top: 15px;
+}
+.bt-view{
+	margin-top: -50px;
+	margin-left: 250px;
+}
+.icon-tools-2 img{
+	width: 30%;
+	margin-left: 0px;
+}
+.desc-icons-2{
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.caminho-icons{
+	margin-left: 15px;
+	margin-top: 0px;
+}
+.edit-img-tm{
+	position: absolute;
+	margin-top: 50px;
+	margin-right: 50px;
+	color: white;
+	right: 0;
+	top: 0;
+	display: none;
+}
+
+.text-img{
+	text-align: left;
+}
+
+.guia{
+	width: 70%;
+		
+}
+.guia h2{
+	text-align: center;
+}
+
+.gal-text-2 {
+	margin-left: -100px;
+}
+
+
+img{
+	width: 80%;
+	height: 80%;
+}
+	
+}
+@media screen and (min-width: 769px) and (max-width: 900px){
+.desc-icons{
+	margin-left: 0px;
+	margin-top: 15px;
+}
+.icon-tools-2 img{
+	width: 30%;
+	margin-left: 0px;
+}
+.desc-icons-2{
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.caminho-icons{
+	margin-left: 15px;
+	margin-top: 0px;
+}
+.edit-img-tm{
+	position: absolute;
+	margin-top: 90px;
+	margin-right: 90px;
+	color: white;
+	right: 0;
+	top: 0;
+	display: none;
+}
+}

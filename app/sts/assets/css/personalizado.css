@@ -1,0 +1,464 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body {
+	min-height: 75rem;
+	padding-top: 3.5rem;
+}
+.link{
+	top: -120px;
+	position: relative;
+	z-index: 5;
+}
+
+.descr-top{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	color: black;
+	border-radius: 0px;
+	margin-bottom: 0rem !important;
+}
+
+.frase{
+	text-align: right;
+	margin-top: 250px;
+	margin-right: 70px;	
+}
+
+.sobre-me{
+	background-image: url('../images/sobre.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	color: black;
+	border-radius: 0px;
+	margin-bottom: 0rem !important;
+}
+.titulo-sobre h2{
+	margin-top: -105px;
+	margin-right: 100px;
+}
+.soft{
+	margin-left: 45px;
+	margin-top: -38px;
+}
+
+.comp{
+	margin-left: -50px;
+	margin-top: -38px;
+}
+.comp ul{
+	margin-left: -30px;
+}
+.comp h3{
+	margin-left: -20px;
+}
+.curso{
+	margin-left: -50px;
+	margin-top: -38px;
+}
+.curso ul{
+	margin-left: -30px;
+}
+.formacao strong{
+	color: black;
+}
+i{
+	color: #41614f;
+}
+.social{
+	margin-top: 14px;
+	margin-left: 45px;
+}
+.social-icon{
+	font-size: 25px;
+}
+
+.social p{
+	font-size: 20px;
+	margin-left: -100px;
+	margin-top: 0px;
+}
+.curso h3{
+	margin-left: -20px;
+}
+.atualizado{
+	margin-top: 70px;
+	margin-left: -20px;
+}
+.atualizado i,strong{
+	font-size: 19px;
+}
+.display-7{
+	padding-bottom: 20px;
+	margin-top: -80px;
+}
+.galeria{
+	margin-top: 0px;
+	border-radius: 0px;
+	margin-bottom: 0rem !important;
+	padding: 0px;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+.contato{
+	background-color: #fff;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	border-radius: 0px;
+	margin-bottom: 0rem !important;
+}
+.rodape p{
+	margin-top: -28px;
+	margin-left: 40px;
+}
+.rodape{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #090622;
+	margin-bottom: 0rem !important;
+	color: #fff;
+	border-radius: 0px;
+
+}
+.rodape ul li a.link-rodape{
+	color: #fff !important;
+	text-decoration: none;
+}
+.rodape ul li a.link-rodape:hover{
+	color: #f5b21a !important;
+	text-decoration: none;
+}
+.rodape i{
+	color: #fff;
+	font-size: 25px;
+}
+
+@media screen and (max-width: 480px){
+
+.descr-top{
+	background-image: url('../images/home_topo/capa-portifolio-sm.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: auto;
+	height: auto;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	color: black;
+	border-radius: 0px;
+	margin-bottom: 0rem !important;
+}
+.soft{
+	margin-top: 0;
+	margin-left: 0;
+}
+.social p{
+	font-size: 20px;
+	margin-left: 45px;
+	margin-top: -32px;
+}
+.comp{
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.comp ul{
+	margin-left: 20px;
+}
+.comp i{
+	margin-left: -15px;
+
+}
+.comp h3{
+	margin-left: 0px;
+}
+.curso {
+	margin-left: 20px;
+	margin-top: 0px;
+}
+.curso h3{
+	margin-left: -20px;
+}
+.sobre-me{	
+	margin-bottom: 0rem !important;
+}
+.display-4{
+	text-align: left;
+	margin-bottom: 10px;
+}
+.frase{
+	text-align: right;
+	margin-top: 400px;
+	margin-right: -5px;
+	color: #ffff;
+
+}
+.social{
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.atualizado{
+	margin-left: -30px;
+	margin-top: 20px;
+}
+.galeria{
+	margin-top: -130px;
+}
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+.descr-top{
+	background-image: url('../images/capa-portifolio-sm.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-top: 150px;
+	padding-bottom: 550px;
+	color: black;
+	border-radius: 0px;
+	margin-bottom: 0rem !important;
+}
+.titulo-sobre h2{
+	margin-left: -45px;
+}
+.display-4{
+	text-align: left;
+	margin-bottom: 10px;
+	margin-top: -100px;
+}
+.soft{
+	margin-top: 0;
+	margin-left: 0;
+}
+.comp{
+	margin-left: 0px;
+	margin-top: 0px;
+}
+.comp h3{
+	margin-left: 0px;
+}
+.comp ul{
+	margin-left: -20px;
+}
+
+.frase{
+	text-align: right;
+	margin-top: 500px;
+	color: #ffff;
+	margin-right: -5px;
+}
+.sobre-me{	
+	margin-bottom: 0rem !important;
+
+}
+
+.social{
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.social p{
+	margin-left: 0px;
+}
+.curso{
+	margin-left: 30px;
+	margin-top: 18px;
+}
+.sobre-me display-4{
+	margin-left: -80px;
+}
+.atualizado{
+	margin-left: -30px;
+}
+.galeria{
+	margin-top: -125px;
+}
+}
+
+@media screen and (min-width: 769px) and (max-width: 990px){
+.descr-top{
+	background-image: url('../images/topo-sm.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	color: black;
+	border-radius: 0px;
+	margin-bottom: 0rem !important;
+}
+.sobre-me{
+	background-image: url('../images/sobre-sm-lt.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	color: black;
+	border-radius: 0px;
+	margin-bottom: 0rem !important;
+}
+
+.display-4{
+	text-align: left;
+	margin-top: -30px;
+	margin-bottom: 20px;
+}
+.soft{
+	margin-left: 0px;
+	margin-top: 20px;
+}
+.text-justify {
+    margin-right: 180px;
+}
+.comp{
+	margin-left: 230px;
+	margin-top: -210px;
+}
+.comp h3{
+	margin-left: 0px;
+}
+.comp ul{
+	margin-left: 20px;
+}
+
+.frase{
+	text-align: center;
+	margin-top: 150px;
+	margin-left: 60px;
+}
+.formacao{
+	margin-top: 20px;
+}
+.formacao strong{
+	color: #41614f;
+}
+.social{
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.social p{
+	margin-left: 50px;
+	margin-top: -33px;
+}
+.curso{
+	margin-top: -460px;
+	margin-left: 250px;
+} 
+.curso h3{
+	margin-left: -20px;
+}
+.atualizado{
+	margin-left: 720px;
+	margin-top: -40px;
+}
+.atualizado i, strong{
+	color: #fff;
+	font-size: 18px;
+}
+.galeria{
+	margin-top: -100px;
+}
+
+}
+
+@media screen and (min-width: 991px) and (max-width: 1199px){
+.descr-top{
+	background-image: url('../images/topo-sm.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-top: 150px;
+	padding-bottom: 245px;
+	color: black;
+	border-radius: 0px;
+	margin-bottom: 0rem !important;
+}
+.sobre-me{
+	background-image: url('../images/sobre-sm-lt.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	color: black;
+	border-radius: 0px;
+	margin-bottom: 0rem !important;
+}
+
+.display-4{
+	text-align: left;
+	margin-top: -30px;
+	margin-bottom: 20px;
+}
+.soft{
+	margin-left: -120px;
+	margin-top: -40px;
+}
+.text-justify {
+    margin-right: 180px;
+}
+.comp{
+	margin-left: 290px;
+	margin-top: 0px;
+}
+.comp h3{
+	margin-left: 0px;
+}
+.comp ul{
+	margin-left: 20px;
+}
+
+.frase{
+	text-align: center;
+	margin-top: 150px;
+	margin-left: 60px;
+}
+.formacao{
+	margin-top: -120px;
+}
+.formacao strong{
+	color: #41614f;
+}
+.social{
+	margin-top: 20px;
+	margin-left: 30px;
+}
+.social p{
+	margin-left: -60px;
+	margin-top: 4px;
+}
+.curso{
+	margin-top: -130px;
+	margin-left: 20px;
+} 
+.curso h3{
+	margin-left: -20px;
+}
+.atualizado{
+	margin-left: 720px;
+	margin-top: -40px;
+}
+.atualizado i, strong{
+	color: #fff;
+	font-size: 18px;
+}
+
+.galeria{
+	margin-top: -80px;
+}
+
+
+}
+
+@media screen and (min-width: 1400px){
+
+.container-lg{
+	max-width: 1620px;
+	margin-top: -90px;
+}
+}
+
