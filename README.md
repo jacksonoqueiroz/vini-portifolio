@@ -1,7 +1,7 @@
 Estes códigos são para um site dinâmico para o portifolio do Vini Queiroz
 
 -Arquivos atuais enviados;
--Ainda em desevolvimento;
+-Ainda em desenvolvimento;
 -Falta a página da galeria;
 -O banco de dados também foi enviado;
 -Falta galeria profissional;
