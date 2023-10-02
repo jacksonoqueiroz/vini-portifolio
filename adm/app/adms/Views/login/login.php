@@ -37,10 +37,11 @@ if (isset($this->dados['form'])) {
 	?>" required autofocus>
 
   <label for="senha" class="sr-only">Senha</label>
-  <input name="senha" type="password" id="senha" class="form-control mb-4" placeholder="Digite a Senha" required>
-
+  <div class="senha">
+  <input name="senha" type="password" id="senha" class="form-control mb-4" placeholder="Digite a Senha" required><i class="bi bi-eye-fill" id="btn-senha" onclick="mostrarSenha()"></i>
+  </div>
   <input name="SendLogin" type="submit" value="Acessar" class="btn btn-lg btn-primary btn-block">
-  <p><a href="#">Esqueci a senha</a></p>
+  <p><a href="app/adms/Views/login/recuperar/recuperarsenha.php">Esqueci a senha</a></p>
   <!--<p class="mt-5 mb-3 text-muted">&copy; 2017-2020</p>-->
 
 </form>
